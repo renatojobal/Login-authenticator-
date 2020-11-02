@@ -1,10 +1,40 @@
 body{
-    background: orange;
+  margin: 0;
+  padding: 0; 
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: aqua;
 }
 
+.login-form{
+position: absolute;
+top: 50%;
+left: 50%;
+width: 300px;
+padding: 50px;
+transform: translate(-50%, -50%);
+text-align: center;
 
-h1{
-    text-align: center;
-  margin-bottom: 10px;
-  padding: 200px;
+background: grey;
+}
+
+.login-form input[type="text"], .login-form input[type="password"]{
+display: block;
+margin: 20px auto;
+outline: none;
+width: 200px;
+border: 3px solid #3498db;
+padding: 20px;
+margin: 20px;
+border-radius: 20px;
+
+}
+.login-form input[type = "submit"]{
+  display: block;
+margin: 20px auto;
+outline: none;
+width: 250px;
+border: 3px solid #3498db;
+padding: 20px;
+margin: 20px;
+border-radius: 20px;
 }
