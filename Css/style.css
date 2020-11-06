@@ -1,9 +1,33 @@
-body{
+body#login{
   margin: 0;
   padding: 0; 
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: aqua;
 }
+
+
+body#register{
+  margin: 0;
+  padding: 0; 
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: black;
+}
+
+hl#register.register-form{
+  color: red;
+}
+
+.register-form{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 300px;
+  padding: 50px;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background: grey;
+}
+
 
 .login-form{
 position: absolute;
@@ -29,6 +53,30 @@ border-radius: 20px;
 
 }
 .login-form input[type = "submit"]{
+  display: block;
+margin: 20px auto;
+outline: none;
+width: 250px;
+border: 3px solid #3498db;
+padding: 20px;
+margin: 20px;
+border-radius: 20px;
+}
+
+
+.register-form input[type = text], input[type="password"]{
+  display: block;
+  margin: 20px auto;
+  outline: none;
+  width: 200px;
+  border: 3px solid #3498db;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 20px;
+
+}
+
+.register-form input[type = "submit"]{
   display: block;
 margin: 20px auto;
 outline: none;
