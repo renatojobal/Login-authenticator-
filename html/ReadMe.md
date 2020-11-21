@@ -1,1 +1,0 @@
-This is a login and authenticator. It allows you to sign up and login with your credentials. This application will use an api and allows user to generate a random inspiration/motivational quotes.
