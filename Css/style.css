@@ -152,3 +152,9 @@ a{
   font-size: medium;
  
 }
+
+.no_account{
+  position: absolute;
+ top: 25px;
+ right: 35px;
+}

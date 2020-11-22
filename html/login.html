@@ -1,24 +1,37 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>Login page</title>
-
-    <link href="Css/style.css" type="text/css" rel="stylesheet" />
-
+    <link href="/Css/style.css" rel="stylesheet" type="text/css" />
+    <title>Sign In</title>
 </head>
 
-<body id="login">
+<body>
 
-    <form class="login-form" action="login.html" method="POST">
-        <h1>Login</h1>
-        <input type="text" name="" placeholder="name">
-        <input type="password" name="" placeholder="password">
-        <input type="submit" name="" value="Login">
+    <div id=container>
 
-        <p>Don't have an acoount? <a href="register.html" </a>Sign up</p>
+        <div class="logo">
+            <h2>Miss Quote</h2>
 
-    </form>
+        </div>
+
+        <div id="error" </div>
+            <form action="register.html" class="register-form" method="Post">
+                <h1>Login In</h1>
+
+                <input type="text" name="" placeholder="Enter Username" required>
+                <input type="password" name="" placeholder="Enter Password" required>
+
+                <input id="c" type="submit" name="" value="Login In">
+
+            </form>
+
+            <div class="no_account">
+                <p>Not a member? <a href="register.html">Sign Up</a></p>
+            </div>
+
+        </div>
+
 </body>
 
 </html>
